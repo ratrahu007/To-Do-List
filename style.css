@@ -50,6 +50,30 @@ li {
 .delete-btn {
     background-color: #dc3545;
 }
+
+@media (max-width: 600px) {
+    .todo-container {
+        width: 90%;
+        padding: 1rem;
+    }
+
+    #task-form {
+        flex-direction: column;
+    }
+
+    #new-task-input {
+        margin-bottom: 0.5rem;
+    }
+
+    button {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .delete-btn {
+        width: auto; /* Reset delete button width */
+    }
+}
 .hidden {
     display: none;
 }
